@@ -17,7 +17,7 @@ pipeline {
 
         stage('List WAR file') {
             steps {
-                sh 'ls -l target/*.war'
+                sh 'ls -l target/*.jar'
             }
         }
     }

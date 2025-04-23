@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        stage('List WAR file') {
+        stage('Create JAR file') {
             steps {
                 sh 'ls -l target/*.jar'
             }
